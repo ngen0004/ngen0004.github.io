@@ -3,11 +3,11 @@ body{
     font-size: 18px;
 }
 header, footer{
-    background-color: rgb(119, 125, 133);
+    background-color: gray;
 }
 .site-title{
-    color:blue;
+    color:brown;
 }
 #my-image{
-    box-shadow: 0 2px 1px black;
+    box-shadow: 0 5px 10px black;
 }
