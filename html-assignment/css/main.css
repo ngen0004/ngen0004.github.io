@@ -17,3 +17,6 @@ ul.square{
 li:nth-child(odd){
     background-color: darkorange;
 }
+a:link{
+    text-decoration: none;
+}
