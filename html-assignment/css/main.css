@@ -3,7 +3,7 @@ body{
     font-size: 18px;
 }
 header, footer{
-    background-color: green;
+    background-color: rgb(119, 125, 133);
 }
 .site-title{
     color:blue;
