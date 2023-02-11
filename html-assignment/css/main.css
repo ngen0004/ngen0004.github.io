@@ -6,11 +6,11 @@ header, footer{
     background-color:rgb(130, 23, 142);
 }
 .site-title{
-    color:beige;
+    color:rgb(146, 146, 111);
 }
 #my-image{
     box-shadow: 0 2px 1px black;
 }
-.list-square{
+ul.square{
     list-style-type: square;
 }
