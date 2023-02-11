@@ -8,3 +8,6 @@ header, footer{
 .site-title{
     color:blue;
 }
+#my-image{
+    box-shadow: 0 2px 1px black;
+}
