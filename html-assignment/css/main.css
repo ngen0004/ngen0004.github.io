@@ -9,7 +9,7 @@ header, footer{
     color: orangered;
 }
 #my-image{
-    box-shadow: 0 1px 2px black;
+    box-shadow: 0 0 2px 1px black;
 }
 ul.square{
     list-style-type: square;
