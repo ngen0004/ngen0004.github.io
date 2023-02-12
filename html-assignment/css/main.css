@@ -19,6 +19,6 @@ li:nth-child(odd){
 }
 a:link{
     text-decoration: none;
-    background-color:rgb(50, 110, 55);
+    background-color:rgb(40, 160, 126);
     border-style: solid;
 }
