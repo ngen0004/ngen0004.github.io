@@ -5,8 +5,14 @@ body{
 .wrapper{
     width: 80%;
     margin: auto;
-    background-color: #c4d3d1;
+    background-color: #ecf1f0;
 }
 #form{
     border: 1px solid black;
+}
+div button{
+    background-color:#ecf1f0;
+}
+footer{
+    text-align: left;
 }
