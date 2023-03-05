@@ -4,10 +4,10 @@ body{
 }
 h1{
     position: absolute;
-    top: 70%;
+    top: 50%;
     width: 100%;
     text-align: center;
-    text-decoration:aliceblue;
+    text-decoration-color:azure;
 }
 .container{
     position: relative;
