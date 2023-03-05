@@ -5,8 +5,8 @@ body{
 h1{
     position: absolute;
     top: 60%;
-    width: 80%;
-    text-align: center;
+    width: 90%;
+    text-align:center;
     color:aliceblue;
 }
 .container{
@@ -15,7 +15,7 @@ h1{
     margin: 0 auto;
 }
 img{
-    width: 100%;
+    width: 110%;
 }
 .wrapper{
     margin: auto;
