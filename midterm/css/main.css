@@ -17,8 +17,8 @@ img{
     width: 100%;
 }
 .wrapper{
-    margin: 100px auto;
-    width: 1000px;
+    margin: auto;
+    width: 80%;
     background-color: #ecf1f0;
 }
 #form{
