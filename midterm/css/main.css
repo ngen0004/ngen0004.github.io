@@ -15,12 +15,15 @@ h1{
     margin: 0 auto;
 }
 img{
-    width: 110%;
+    width: 90%;
 }
 .wrapper{
     margin: auto;
     width: 80%;
     background-color: #ecf1f0;
+}
+nav a{
+    text-align:center;
 }
 #form{
     border: 1px solid black;
