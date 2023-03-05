@@ -3,8 +3,8 @@ body{
     background-color: #aad4cf;
 }
 .wrapper{
-    width: 80%;
-    margin: auto;
+    margin: 100px auto;
+    width: 1000px;
     background-color: #ecf1f0;
 }
 #form{
