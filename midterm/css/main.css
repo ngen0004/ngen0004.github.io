@@ -4,13 +4,14 @@ body{
 }
 h1{
     position: absolute;
-    top: 30%;
+    top: 70%;
     width: 100%;
     text-align: center;
+    text-decoration:aliceblue;
 }
 .container{
     position: relative;
-    max-width: 500px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 img{
