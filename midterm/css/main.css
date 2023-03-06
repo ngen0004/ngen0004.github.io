@@ -35,15 +35,15 @@ a:link{
     clear: right;
 }
 .box{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 90px;
     background-color:#ecf1f0;
     padding: 20px;
-    border: 2px solid black;
-    margin: 30px;
+    border: 1px solid black;
+    margin: 20px;
 }
 div input textarea{
-    width: 150px;
+    width: 90%;
 }
 div button{
     background-color:#ecf1f0;
