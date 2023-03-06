@@ -22,8 +22,8 @@ h1{
 img{
     width: 100%;
 }
-.display li{
-    text-align:center;
+.display a:link{
+    align-items: center;
     text-decoration: none;
     display: inline;
 }
@@ -34,7 +34,7 @@ img{
 .para1{
     clear: right;
 }
-section #box{
+#box{
     width: 100px;
     height: 90px;
     background-color:#ecf1f0;
