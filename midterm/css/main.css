@@ -32,6 +32,7 @@ img{
 .para img{
     float: left;
     width: 30%;
+    margin: 20px;
 }
 .para1{
     clear: right;
@@ -40,8 +41,8 @@ img{
     width: 100px;
     height: 100px;
     background-color:#ecf1f0;
-    /*padding: 20px;
-    border: 2px solid black;
+    padding: 20px;
+    /*border: 2px solid black;
     margin: 20px;*/
 }
 div input textarea{
