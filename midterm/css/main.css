@@ -22,8 +22,9 @@ img{
     width: 80%;
     background-color: #ecf1f0;
 }
-.bord a{
+a:link{
     text-align:center;
+    text-decoration: none;
 }
 #form{
     border: 1px solid black;
