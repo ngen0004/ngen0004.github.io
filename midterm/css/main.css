@@ -25,7 +25,7 @@ img{
 .display li{
     align-items: center;
     display: inline;
-    margin-right: 200px;
+    margin-right: 100px;
     border-right-style: 1px solid gray;
     font-weight: bold;
 }
@@ -45,8 +45,8 @@ a:link{
 }
 .long{
     width: 100%;
-    padding: 20px 20px;
-    margin: 12px 0;
+    padding: 12px 12px;
+    margin: 8px 0;
     display: inline-block;
 }
 div button{
