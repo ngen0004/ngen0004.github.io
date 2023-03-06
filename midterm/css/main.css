@@ -42,7 +42,7 @@ a:link{
     height: 90px;
     background-color:#ecf1f0;
     padding: 20px;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 20px;
 }
 div input textarea{
@@ -52,6 +52,6 @@ div button{
     background-color:#ecf1f0;
 }
 footer{
-    margin-left: auto;
-    text-align: left;
+    margin-right: auto;
+    text-align: right;
 }
