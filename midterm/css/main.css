@@ -26,6 +26,13 @@ a:link{
     text-align:center;
     text-decoration: none;
 }
+.para img{
+    float: right;
+    width: 50%;
+}
+.para1{
+    clear: right;
+}
 #form{
     border: 1px solid black;
 }
@@ -34,4 +41,5 @@ div button{
 }
 footer{
     margin-left: auto;
+    text-align: left;
 }
