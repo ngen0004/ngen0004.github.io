@@ -22,11 +22,8 @@ img{
     width: 80%;
     background-color: #ecf1f0;
 }
-nav a{
-    text-align:center;
-}
-.bord{
-    border-right: 2px solid grey;
+nav{
+    align-items:center;
 }
 #form{
     border: 1px solid black;
