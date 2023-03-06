@@ -22,7 +22,7 @@ h1{
 img{
     width: 100%;
 }
-.display a:link{
+.display a{
     align-items: center;
     text-decoration: none;
     display: inline;
