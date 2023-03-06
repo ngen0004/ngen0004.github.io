@@ -26,6 +26,8 @@ img{
     align-items: center;
     text-decoration: none;
     display: inline;
+    margin-right: 50px;
+    border-right: 1px solid gray;
 }
 .para img{
     float: left;
@@ -34,13 +36,13 @@ img{
 .para1{
     clear: right;
 }
-#box{
+.box{
     width: 100px;
-    height: 90px;
+    height: 100px;
     background-color:#ecf1f0;
-    padding: 20px;
+    /*padding: 20px;
     border: 2px solid black;
-    margin: 20px;
+    margin: 20px;*/
 }
 div input textarea{
     width: 90%;
