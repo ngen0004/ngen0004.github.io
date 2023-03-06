@@ -22,6 +22,9 @@ h1{
 img{
     width: 100%;
 }
+.main-body{
+    margin: 10px;
+}
 .display li{
     align-items: center;
     display: inline;
