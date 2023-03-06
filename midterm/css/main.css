@@ -22,7 +22,7 @@ h1{
 img{
     width: 100%;
 }
-.display a{
+.display li{
     text-align:center;
     text-decoration: none;
     display: inline;
@@ -34,7 +34,7 @@ img{
 .para1{
     clear: right;
 }
-.box{
+section #box{
     width: 100px;
     height: 90px;
     background-color:#ecf1f0;
