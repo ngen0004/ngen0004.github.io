@@ -1,7 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
-    font-size: 50px;
     margin: auto;
 }
 .wrapper{
@@ -28,7 +27,8 @@ img{
     align-items: center;
     display: inline;
     margin-right: 200px;
-    border-right: 1px solid gray;
+    border-right-style: 1px solid gray;
+    font-weight: bold;
 }
 a:link{
     text-decoration: none;
@@ -45,7 +45,7 @@ a:link{
     width: 100px;
     height: 100px;
     background-color:#ecf1f0;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 .long{
     width: 100px;
