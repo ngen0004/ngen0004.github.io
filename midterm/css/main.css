@@ -42,9 +42,10 @@ a:link{
 }
 #form{
     border: 1px solid black;
+    padding: 20px;
 }
 .long{
-    width: 100%;
+    width: 90%;
     padding: 12px 12px;
     margin: 8px 0;
     display: inline-block;
