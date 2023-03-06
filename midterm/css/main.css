@@ -1,7 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
-    margin: auto;
 }
 .wrapper{
     margin: auto;
@@ -41,14 +40,14 @@ a:link{
 .para1{
     clear: right;
 }
-.box{
-    width: 100px;
-    height: 100px;
-    background-color:#ecf1f0;
+#form{
     border: 1px solid black;
 }
 .long{
-    width: 100px;
+    width: 100%;
+    padding: 20px 20px;
+    margin: 12px 0;
+    display: inline-block;
 }
 div button{
     background-color:#ecf1f0;
