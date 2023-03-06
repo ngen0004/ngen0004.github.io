@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
+    font-size: 16px;
 }
 .wrapper{
     margin: auto;
@@ -38,14 +39,13 @@ a:link{
 }
 .para1{
     clear: right;
-    width: 20%;
 }
 .box{
     width: 100px;
     height: 100px;
     background-color:#ecf1f0;
     border: 2px solid black;
-    margin: auto;
+    margin: 0 auto;
 }
 .long{
     width: 100px;
