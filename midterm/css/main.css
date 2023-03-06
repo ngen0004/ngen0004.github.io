@@ -4,7 +4,7 @@ body{
 }
 .wrapper{
     margin: auto;
-    width: 80%;
+    width: 800px;
     background-color: #ecf1f0;
 }
 h1{
@@ -24,10 +24,12 @@ img{
 }
 .display li{
     align-items: center;
-    text-decoration: none;
     display: inline;
-    margin-right: 50px;
+    margin-right: 80px;
     border-right: 1px solid gray;
+}
+a:link{
+    text-decoration: none;
 }
 .para img{
     float: left;
@@ -36,16 +38,17 @@ img{
 }
 .para1{
     clear: right;
+    width: 20%;
 }
 .box{
     width: 100px;
     height: 100px;
     background-color:#ecf1f0;
     border: 2px solid black;
-    margin: 20px;
+    margin: auto;
 }
 .long{
-    width: 90%;
+    width: 100px;
 }
 div button{
     background-color:#ecf1f0;
