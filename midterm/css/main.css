@@ -39,8 +39,11 @@ a:link{
     height: 200px;
     background-color:#ecf1f0;
     padding: 20px;
-    border: 5px solid black;
+    border: 2px solid black;
     margin: 30px;
+}
+div input textarea{
+    width: 150px;
 }
 div button{
     background-color:#ecf1f0;
