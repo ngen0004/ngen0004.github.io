@@ -27,7 +27,6 @@ img{
     margin: 10px;
 }
 .display li{
-    align-items: center;
     display: inline;
     margin-right: 100px;
     border-right-style: 1px solid gray;
@@ -35,6 +34,7 @@ img{
 }
 a:link{
     text-decoration: none;
+    text-align: center;
 }
 .para img{
     float: left;
