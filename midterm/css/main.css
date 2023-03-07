@@ -26,15 +26,20 @@ img{
 .main-body{
     margin: 10px;
 }
-.display li{
-    display: inline;
-    margin-right: 100px;
-    border-right-style: 1px solid gray;
-    font-weight: bold;
-}
-a:link{
-    text-decoration: none;
+.display ul{
     text-align: center;
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+    text-decoration: none;
+}
+.display li{
+    width: 33%;
+    
+}
+li:nth-child(-n+2){
+    border-right: 1px solid gray;
+    
 }
 .para img{
     float: left;
