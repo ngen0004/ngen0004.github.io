@@ -80,7 +80,7 @@ a{
 /*sets the style of the textarea width and places them in blocks*/
 .big{
     width: 100%;
-    padding: 30px 2px;
+    padding: 20px 2px;
     margin: 5px 0;
     display: inline-block;
     resize: none; /*removes the right of the user to resize the textarea*/
