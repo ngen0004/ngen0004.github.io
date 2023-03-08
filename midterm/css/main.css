@@ -1,43 +1,51 @@
-/**/
+/*setting the font, size, and primary background color on the page */
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
     font-size: 15px;
 }
+/*page content wrapped inside a container of specified width and margin*/
 .wrapper{
-    margin: auto;
+    margin: auto; /*centering the page contents within the wrapper container*/
     width: 850px;
-    background-color: #ecf1f0;
+    background-color: #ecf1f0; /*wrapper container color*/
 }
+/*positioning the title of the page on top of the image */
 h1{
-    position: absolute;
+    position: absolute; /*removes the header title from original position and move it on top of the image*/
     top: 55%;
     width: 100%;
-    text-align:center;
+    text-align:center; /*title text alignment*/
     color:aliceblue;
 }
+/*position the image on the page relative to the header*/
 .container{
-    position: relative;
+    position: relative; 
     max-width: 100%;
     margin: auto;
 }
+/**/
 img{
     width: 100%;
 }
+/*putting space between body content and wrapper(container) border*/
 .main-body{
     margin: 10px;
 }
+/*removing underline under links*/
 a:link{
     text-decoration: none;
 }
+/*setting up links color and size*/
 a{
     color: black;
     font-size: 150%;
 }
+/*arrange the links automatically according to the size */
 .display ul{
-    text-align: center;
-    list-style: none;
-    display: flex;
+    text-align: center; 
+    list-style: none; /*removes bullets from the unordered list in navigation*/
+    display:flex;
     font-weight: bold;
 }
 .display li{
