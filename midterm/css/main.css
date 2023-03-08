@@ -1,3 +1,4 @@
+/**/
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
@@ -18,7 +19,7 @@ h1{
 .container{
     position: relative;
     max-width: 100%;
-    margin: 0 auto;
+    margin: auto;
 }
 img{
     width: 100%;
