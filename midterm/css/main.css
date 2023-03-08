@@ -40,48 +40,57 @@ a{
     color: black;
     font-size: 150%;
 }
-/*arrange the links automatically according to the size */
+/*arrange the links automatically from the unordered list according to the size */
 .display ul{
     text-align: center; 
     list-style: none; /*removes bullets from the unordered list in navigation*/
     display:flex;
     font-weight: bold;
 }
+/*setting the width on the list of links*/
 .display li{
     width: 33%;
 }
+/*puts border on the right side of first 2 child list tags under the unordered*/
 .display li:nth-child(-n+2){
     border-right: 1px solid gray;
 }
+/*float places the image on the left side and helps wrap the text around it*/
 .para img{
     float: left;
     width: 30%;
     margin: 10px;
 }
+/*this clears the previous floating image and sets the text to right of the image*/
 .para1{
     clear: right;
 }
+/*sets borders on the form*/
 #form{
     border: 1px solid black;
     padding: 20px;
 }
+/*sets the style of the input text width and places them in blocks*/
 .small{
-    width: 99%;
+    width: 100%;
     padding: 2px 2px;
     margin: 5px 0;
     display: inline-block;
 }
+/*sets the style of the textarea width and places them in blocks*/
 .big{
-    width: 99%;
-    padding: 5px 5px;
+    width: 100%;
+    padding: 2px 2px;
     margin: 5px 0;
     display: inline-block;
+    resize: none; /*removes the right of the user to resize the textarea*/
 }
+/*sets space on top of button*/
 div button{
     background-color:#ecf1f0;
     margin-top: 5px;
 }
+/*puts the footer on the right side of the container*/
 footer{
-    margin-right: auto;
     text-align: right;
 }
