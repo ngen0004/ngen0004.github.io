@@ -15,7 +15,7 @@
                 <a href="#aboutus">About Us</a>
                 <a href="#service">Services</a>
                 <a href="#teams">Team</a>
-                <a href="#contact">Contact</a>
+                <a href="#contacts">Contact</a>
             </nav>
             <input type="text" placeholder="Search">
         </header>
@@ -86,8 +86,34 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus natus ad aspernatur tempora atque doloribus nulla veritatis dolorem incidunt deserunt eaque minus adipisci ratione consectetur explicabo perspiciatis, illum magnam mollitia?</p>
             </section>
         </div>
-        <div class="contact">
+        <div id="contacts" class="contact">
             <h2>Contact Us</h2>
+            <section>
+                <h3>Send us a message</h3>
+                <form action="index.html" method="get">
+                    <div>
+                        <label for="fullname">Full Name</label>
+                        <br>
+                        <input id="fullname" type="text" name="fullname" class="small"> <!--class small used to change style of input-->
+                   </div>
+                   <div>
+                        <label for="email">Email</label>
+                        <br> <!--type email notifies you to enter an email in email format-->
+                        <input id="email" type="email" name="email" class="small"> <!--class small used to change style of input -->
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <br>
+                        <textarea id="message" name="message" class="big"></textarea> <!--class big used to change style of textarea-->
+                   </div>
+                   <div>
+                        <button type="submit">Send</button>
+                   </div>
+                </form>
+            </section>
+            <section>
+                <h3>Hours of Operation</h3>
+            </section>
         </div>
     </div>
 </body>
