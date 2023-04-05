@@ -5,31 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gilbert Final Project</title>
-    <script src="https://kit.fontawesome.com/7e3b67895f.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7e3b67895f.js" crossorigin="anonymous"></script><!--javascript that helps to use font awesome icons-->
 </head>
 <body>
     <div class="wrapper"> <!--wrapper class to make page content easy to read-->
-        <div>
-            <img src="images/logo.png" alt="logo">
-            <ul><li><a href="#home">Home</a></li></ul>
+        <div class="container"> <!--container class to place the background color of the logo and home navigation link in the header-->
+            <header>
+                <img src="images/logo.png" alt="logo">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#teams">Team</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                </ul>
+                <input type="text" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i> <!--displays the search icon-->
+            </header>
         </div>
-        <header>
-            <ul>
-                <li><a href="#aboutus">About Us</a></li>
-                <li><a href="#service">Services</a></li>
-                <li><a href="#teams">Team</a></li>
-                <li><a href="#contacts">Contact</a></li>
-            </ul>
-            <input type="text" placeholder="Search">
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </header>
-        <div id="home" class="welcome">
+        <div id="home" class="welcome"> <!--welcome class to place the image in the background of the text-->
             <img src="images/main-banner.jpg" alt="backgoundimage">
-            <article class="welcome home">
+            <article class="welcome home"> <!--home class to place the dark light color in the background of the text-->
                 <h1>Welcome to Three Star Media</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quam velit nisi ab fuga repudiandae hic excepturi laborum quo. 
                 Porro suscipit ab amet quasi illo quia voluptatum sit minima distinctio.</p>
-                <button type="submit">Connect with us <i class="fa-sharp fa-solid fa-play"></i></button>
+                <button type="submit">Connect with us <i class="fa-sharp fa-solid fa-play"></i></button> <!--displays the button icon-->
             </article>
         </div>
         <div id="aboutus" class="about">
