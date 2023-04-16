@@ -49,3 +49,51 @@ table {
 *{
     box-sizing: border-box;
 }
+.wrapper{
+    width: 1200px;
+    margin: auto;
+}
+div a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+.container{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.cont-1{
+    background-color: #c78c06;
+    padding: 30px;
+    width: 100%;
+}
+.cont-1, .cont-2 a:nth-child(1){
+    background-color: #c78c06;
+    padding: 30px;
+    color: black;
+}
+.cont-1 img{
+    position: absolute;
+    top: 20px;
+    left: 280px;
+}
+input{
+    width: 100%;
+}
+.welcome img{
+    width: 100%;
+}
+.home{
+    position: absolute;
+    top: 30%;
+    background-color: rgba(45, 40, 40, 0.61);
+    width: 100%;
+    text-align: center;
+}
+.welcome{
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
