@@ -50,18 +50,20 @@ table {
     box-sizing: border-box;
 }
 .wrapper{
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
 }
 div a{
     display: block;
-    padding: 10px;
+    padding: 20px;
     text-decoration: none;
+    color: #c78c06;
 }
 .container{
     background-color: black;
     padding: 20px;
     text-align: center;
+    color:#c78c06;
 }
 .cont-1{
     background-color: #c78c06;
@@ -77,6 +79,7 @@ div a{
     position: absolute;
     top: 20px;
     left: 280px;
+    width: 60px;
 }
 input{
     width: 100%;
@@ -84,16 +87,48 @@ input{
 .welcome img{
     width: 100%;
 }
-.home{
-    position: absolute;
-    top: 30%;
-    background-color: rgba(45, 40, 40, 0.61);
-    width: 100%;
-    text-align: center;
-}
 .welcome{
     position: relative;
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: auto;
 }
+article{
+    padding: 50px;
+}
+.homeee{
+    position: absolute;
+    top: 20%;
+    background-color: rgba(45, 40, 40, 0.61);
+    width: 100%;
+    height: 50%;
+    text-align: left;
+}
+h1{
+    font-size: 120px;
+    color: white;
+}
+article button{
+    background-color: #c78c06;
+    
+    padding: 20px;
+}
+.homeee p{
+    color: white;
+}
+.about{
+    background-color: #ffe6ac;
+    padding: 20px;
+}
+.about img{
+    width: 100%;
+}
+.about h2{
+    font-size: 60px;
+    color: black;
+    margin-top: 30px;
+}
+.about p{
+    margin-top: 10px;
+}
+
 
