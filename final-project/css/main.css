@@ -110,6 +110,8 @@ h1{
 article button{
     background-color: #c78c06;
     padding: 20px;
+    margin-top: 10px;
+    font-size: 20px;
 }
 .homeee p{
     color: white;
@@ -146,6 +148,17 @@ h2{
 }
 section h3{
     font-size: 40px;
+    margin-top: 10px;
+    
 }
-
-
+section button{
+    background-color: #222;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+section p{
+    margin-top: 20px;
+    font-size: 20px;
+}
