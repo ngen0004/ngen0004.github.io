@@ -162,3 +162,20 @@ section p{
     margin-top: 20px;
     font-size: 20px;
 }
+.vsn{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 50%;
+    text-align: left;
+    color: white;
+}
+.vision{
+    position: relative;
+    width: 100%;
+    margin: auto;        
+}
+.vision img{
+    width: 100%;
+}
+
