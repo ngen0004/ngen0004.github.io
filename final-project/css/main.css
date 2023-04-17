@@ -109,7 +109,6 @@ h1{
 }
 article button{
     background-color: #c78c06;
-    
     padding: 20px;
 }
 .homeee p{
@@ -122,13 +121,31 @@ article button{
 .about img{
     width: 100%;
 }
-.about h2{
+h2{
     font-size: 60px;
-    color: black;
+    color: #222;
     margin-top: 30px;
 }
 .about p{
     margin-top: 10px;
+}
+.services{
+    padding: 10px;
+}
+.services img{
+    width: 100%;
+}
+.services .digital,
+.services .marketing,
+.services .video,
+.services .web,
+.services .print{
+    margin-bottom: 30px;
+    background-color: #ffe6ac;
+    color: #222;
+}
+section h3{
+    font-size: 40px;
 }
 
 
