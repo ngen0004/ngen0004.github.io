@@ -100,11 +100,11 @@ article{
     top: 20%;
     background-color: rgba(45, 40, 40, 0.61);
     width: 100%;
-    height: 50%;
+    height: 70%;
     text-align: left;
 }
 h1{
-    font-size: 120px;
+    font-size: 60px;
     color: white;
 }
 article button{
@@ -118,7 +118,7 @@ article button{
 }
 .about{
     background-color: #ffe6ac;
-    padding: 20px;
+    padding: 10px;
 }
 .about img{
     width: 100%;
@@ -168,10 +168,10 @@ section p{
 }
 .vsn{
     position: absolute;
-    top: 40%;
+    top: 20%;
     width: 100%;
     text-align: left;
-    padding: 20px;
+    padding: 10px;
 }
 .vision{
     position: relative;
@@ -187,7 +187,7 @@ section p{
     margin-bottom: 20px;
 }
 .vsn button{
-    background-color: #3d4165ca;
+    background-color: #1a1c49d2;
     padding: 20px;
     color: white;
 }
@@ -206,9 +206,14 @@ section p{
 .team h4{
     border-bottom: 2px solid orange;
 }
+.team p{
+    margin-bottom: 20px;
+}
 .contact{
     padding: 10px;
-    margin-bottom: 50px;
+}
+.contact h2{
+    margin-bottom: 20px;
 }
 .frm h3{
     margin-bottom: 20px;
@@ -233,6 +238,7 @@ section p{
     background-color:#222;
     margin-top: 5px;
     color:#c78c06;
+    font-size: 20px;
 }
 th, tr, td{
     border: 1px solid black;
