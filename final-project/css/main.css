@@ -142,7 +142,7 @@ h2{
 .services .video,
 .services .web,
 .services .print{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     background-color: #ffe6ac;
     color: #222;
 }
@@ -191,7 +191,21 @@ section p{
     padding: 20px;
     color: white;
 }
-
+.team{
+    padding: 10px;
+}
+.team img{
+    width: 100%;
+}
+.team .ceo,
+.team .cfo{
+    margin-bottom: 10px;
+    background-color: #ffe6ac;
+    color: #222;
+}
+.team h4{
+    border-bottom: 2px solid orange;
+}
 
 
 
