@@ -146,10 +146,11 @@ h2{
     background-color: #ffe6ac;
     color: #222;
 }
-section h3{
+h3{
     font-size: 40px;
-    margin-top: 10px;
-    
+}
+section h3{
+    margin-top: 10px;  
 }
 section button{
     background-color: #222;
@@ -179,7 +180,6 @@ section p{
     color: white; 
 }
 .vsn h3{
-    font-size: 40px;
     margin-bottom: 20px;
 }
 .vsn p{
@@ -206,6 +206,59 @@ section p{
 .team h4{
     border-bottom: 2px solid orange;
 }
-
+.contact{
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.frm h3{
+    margin-bottom: 20px;
+}
+/*sets the style of the input text width and places them in blocks*/
+.frm .small{
+    width: 100%;
+    padding: 2px 2px;
+    margin: 5px 0;
+    display: inline-block;
+}
+/*sets the style of the textarea width and places them in blocks*/
+.frm .big{
+    width: 100%;
+    padding: 20px 2px;
+    margin: 5px 0;
+    display: inline-block;
+    resize: none; /*removes the right of the user to resize the textarea*/
+}
+/*sets space on top of button*/
+.frm button{
+    background-color:#222;
+    margin-top: 5px;
+    color:#c78c06;
+}
+th, tr, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+table{
+    width: 100%;
+}
+th{
+    background-color: #ffe6ac;
+}
+.hours h3, .map h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.mp{
+    width: 100%;
+    height: 500px;
+}
+.footr{
+    background-color: black;
+    color:#c78c06;
+    padding: 20px;
+}
+.footr p{
+    margin-top: 10px;
+}
 
 
