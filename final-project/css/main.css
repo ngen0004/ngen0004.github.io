@@ -338,7 +338,7 @@ th{
         font-size: 15px;
     }
     .about{
-        height: 250px;
+        height: 215px;
         padding: 20px;        
     }
     .about h2{
@@ -346,5 +346,32 @@ th{
         margin-top: 1px;
         margin-bottom: 15px;
     }
+    .services{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4,1fr);
+        /* grid-template-areas: 
+        "services-1 services-1 services-2 services-2"
+        "services-4 services-5"; */
+    }
+    .services .services-1{
+        /* grid-area: services-1; */
+        grid-column: 1 / 2;
+    }
+    .services .services-2{
+        /* grid-area: services-2; */
+        grid-column: 2 / 4;
+    }
+    .services .services-3{
+        /* grid-area: services-3; */
+        grid-column: 4 / 5;
+    }
+    .services .services-4{
+        /* grid-area: services-4; */
+        grid-column: 5 / 6;
+    }
+    .services .services-5{
+        /* grid-area: services-5; */
+        grid-column: 6 / 7;
+    }
 }
-
