@@ -49,8 +49,12 @@ table {
 *{
     box-sizing: border-box;
 }
-.wrapper{
+
+.wrapper{   
     margin: auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 div a{
     display: block;
@@ -136,7 +140,7 @@ h2{
     margin-top: 10px;
 }
 .services{
-    padding: 10px;
+    padding: 5px;
 }
 .services img{
     width: 100%;
@@ -146,7 +150,7 @@ h2{
 .services .video,
 .services .web,
 .services .print{
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     background-color: #ffe6ac;
     color: #222;
 }
@@ -219,18 +223,18 @@ section p{
 .contact h2{
     margin-bottom: 20px;
 }
-.frm h3{
+.form h3{
     margin-bottom: 20px;
 }
 /*sets the style of the input text width and places them in blocks*/
-.frm .small{
+.form .small{
     width: 100%;
     padding: 2px 2px;
     margin: 5px 0;
     display: inline-block;
 }
 /*sets the style of the textarea width and places them in blocks*/
-.frm .big{
+.form .big{
     width: 100%;
     padding: 20px 2px;
     margin: 5px 0;
@@ -238,7 +242,7 @@ section p{
     resize: none; /*removes the right of the user to resize the textarea*/
 }
 /*sets space on top of button*/
-.frm button{
+.form button{
     background-color:#222;
     margin-top: 5px;
     color:#c78c06;
@@ -270,7 +274,10 @@ th{
 .footr p{
     margin-top: 10px;
 }
-@media screen and (min-width: 760px) and (max-width: 1200px){
+@media screen and (min-width: 760px){
+    body{
+        margin: auto;
+    }
     .container .cont-1, .container .cont-2, .container .serch{
         display: flex;
         justify-content: center;
@@ -347,70 +354,109 @@ th{
         margin-bottom: 15px;
     }
     .services img{
-        width: 50%;
+        width: 100%;
     }
     .services{
-        padding: 1px;
+        /* padding: 1px; */
+        width: 100%;        
     }
     .services .digital,
     .services .marketing,
     .services .video,
     .services .web,
     .services .print{
-        margin-bottom: 10px;
         background-color: #ffe6ac;
         color: #222;
+        width: 100%;
+    }
+    .services .services-1,
+    .services .services-2,
+    .services .services-3,
+    .services .services-4,
+    .services .services-5,
+    .services h2{
+        margin: 5px;
+        overflow: hidden;
     }
     .services h3{
-        font-size: 10px;
+        font-size: 20px;
         margin-top: 5px;
+        margin-right: 5px;
     }
     .services section button{
         background-color: #222;
-        padding: 5px;
+        padding: 15px;
         color: white;
-        margin-top: 10px;
+        margin: 5px;
         font-size: 5px;
+        width: 100%;
     }
     .services section p{
         margin-top: 5px;
-        font-size: 1px;
+        font-size: 10px;
     }
-    
+
     .services{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+            }
+    .services div:nth-child(1){
+        grid-column: span 3;
+        grid-row: 1 / 2;
+    }
+    .services div:nth-child(2){
+        grid-column: span 3;
+        grid-row: 1 / 2;
+    }
+    .services div:nth-child(3){
+        grid-column: span 2;
+        grid-row: 2 / 3;
+    }
+    .services div:nth-child(4){
+        grid-column: span 2;
+        grid-row: 2 / 3;
+    }
+    .services div:nth-child(5){
+        grid-column: span 2;
+        grid-row: 2 / 3;
+    }
+    .team .team1, .team2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .team2 .cfo1{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    .grid-contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         
     }
-    .services-1 img, .services-1 section{
-        /* grid-area: services-1; */
-        /* grid-column: 1 / span 2; */
-        grid-column-start: 1;
-        grid-column-end: 3;
+    .grid-contact div:nth-child(1){
+        grid-column: span 1;
+        grid-row: 1 / 2;
     }
-    .services-2 img, .services-2 section{
-        /* grid-area: services-2; */
-        /* grid-column: 3 / span 4; */
-        grid-column-start: 3;
-        grid-column-end: 4;
+    .grid-contact div:nth-child(2){
+        grid-column: span 3;
+        grid-row: 2 / 2;
+
     }
-    .services-3 img, .services-3 section{
-        /* grid-area: services-3; */
-        /* grid-column: 5 / span 5; */
-        grid-column-start: 5;
-        grid-column-end: 6;
+    .grid-contact div:nth-child(3){
+        grid-column: span 1;
+        grid-row: 1 / 2;
     }
-    .services-4 img, .services-5 section{
-        /* grid-area: services-4; */
-        /* grid-column: 6 / span 6; */
-        grid-column-start: 6;
-        grid-column-end: 7;
+    .form1 input{
+        width: 100%;
+        margin-right: 20px;
     }
-    .services-5 img, .services-5 section{
-        /* grid-area: services-5; */
-        /* grid-column: 7 / span 7; */
-        grid-column-start: 7;
-        grid-column-end: 8;
+    .form1 textarea{
+        width: 100%;
+    }
+    .map iframe{
+        height: 100px;
     }
 }
