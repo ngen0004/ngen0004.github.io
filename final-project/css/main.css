@@ -272,5 +272,10 @@ th{
 .footr p{
     margin-top: 10px;
 }
-
+@media screen and (min-width: 760px) and (max-width: 1200px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
