@@ -50,7 +50,6 @@ table {
     box-sizing: border-box;
 }
 .wrapper{
-    max-width: 1200px;
     margin: auto;
 }
 div a{
@@ -66,7 +65,6 @@ div a{
     color:#c78c06;
 }
 .cont-1{
-    background-color: #c78c06;
     padding: 30px;
     width: 100%;
 }
@@ -76,7 +74,7 @@ div a{
     color: black;
 }
 .cont-1 img{
-    position:absolute;
+    position: absolute;
     top: 40px;
     left: 30px;
     width: 70px;
@@ -273,9 +271,60 @@ th{
     margin-top: 10px;
 }
 @media screen and (min-width: 760px) and (max-width: 1200px){
-    header{
+    .container .cont-1, .container .cont-2, .container .serch{
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        display: inline-flex;
+        margin: auto;
+    }
+    .cont-2 a:nth-child(1){
+        padding: 10px;      
+        margin: 10px;
+    }
+    .cont-1 img{
+        width: 50px;
+        top: 37px;
+        left: 50px;
+    }
+    .cont-1{
+        background-color: black;
+        padding: 5px;
+        width: 100%;
+        left: 40px;
+    }
+    .serch input{
+        width: 150px;
+        height: 35px;
+    }
+    .serch .fa-solid{
+        width:40px;
+        height: 35px;
+    }
+    .welcome img{
+        height: 350px;
+    }
+    article{
+        padding: 30px;
+    }
+    .homeee{
+        position: absolute;
+        top: 5px;
+        background-color: rgba(45, 40, 40, 0.61);
+        width: 90%;
+        height: 300px;
+        text-align: left;
+        margin: 20px;
+    }
+    h1{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    article button{
+        margin-top: 35px;
+        font-size: 15px;
+    }
+    .homeee p{
+        font-size: 12px;
     }
 }
 
