@@ -346,32 +346,71 @@ th{
         margin-top: 1px;
         margin-bottom: 15px;
     }
+    .services img{
+        width: 50%;
+    }
+    .services{
+        padding: 1px;
+    }
+    .services .digital,
+    .services .marketing,
+    .services .video,
+    .services .web,
+    .services .print{
+        margin-bottom: 10px;
+        background-color: #ffe6ac;
+        color: #222;
+    }
+    .services h3{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .services section button{
+        background-color: #222;
+        padding: 5px;
+        color: white;
+        margin-top: 10px;
+        font-size: 5px;
+    }
+    .services section p{
+        margin-top: 5px;
+        font-size: 1px;
+    }
+    
     .services{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(4,1fr);
-        /* grid-template-areas: 
-        "services-1 services-1 services-2 services-2"
-        "services-4 services-5"; */
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        
     }
-    .services .services-1{
+    .services-1 img, .services-1 section{
         /* grid-area: services-1; */
-        grid-column: 1 / 2;
+        /* grid-column: 1 / span 2; */
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
-    .services .services-2{
+    .services-2 img, .services-2 section{
         /* grid-area: services-2; */
-        grid-column: 2 / 4;
+        /* grid-column: 3 / span 4; */
+        grid-column-start: 3;
+        grid-column-end: 4;
     }
-    .services .services-3{
+    .services-3 img, .services-3 section{
         /* grid-area: services-3; */
-        grid-column: 4 / 5;
+        /* grid-column: 5 / span 5; */
+        grid-column-start: 5;
+        grid-column-end: 6;
     }
-    .services .services-4{
+    .services-4 img, .services-5 section{
         /* grid-area: services-4; */
-        grid-column: 5 / 6;
+        /* grid-column: 6 / span 6; */
+        grid-column-start: 6;
+        grid-column-end: 7;
     }
-    .services .services-5{
+    .services-5 img, .services-5 section{
         /* grid-area: services-5; */
-        grid-column: 6 / 7;
+        /* grid-column: 7 / span 7; */
+        grid-column-start: 7;
+        grid-column-end: 8;
     }
 }
