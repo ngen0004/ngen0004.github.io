@@ -277,6 +277,7 @@ th{
 @media screen and (min-width: 760px){
     body{
         margin: auto;
+        font-family: 'Open Sans', sans-serif;
     }
     .container .cont-1, .container .cont-2, .container .serch{
         display: flex;
@@ -395,12 +396,11 @@ th{
         margin-top: 5px;
         font-size: 10px;
     }
-
     .services{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-            }
+    }
     .services div:nth-child(1){
         grid-column: span 3;
         grid-row: 1 / 2;
@@ -434,7 +434,6 @@ th{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        
     }
     .grid-contact div:nth-child(1){
         grid-column: span 1;
@@ -443,11 +442,13 @@ th{
     .grid-contact div:nth-child(2){
         grid-column: span 3;
         grid-row: 2 / 2;
-
     }
     .grid-contact div:nth-child(3){
         grid-column: span 1;
         grid-row: 1 / 2;
+    }
+    .form{
+        margin-right: 5px;
     }
     .form1 input{
         width: 100%;
